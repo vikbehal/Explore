@@ -21,4 +21,4 @@ Learn more: Find more information about Chocolatey [here](https://chocolatey.org
 2. The output shall be similar to  
 ![Result](https://github.com/vikbehal/Explore/blob/master/QuickReview/Artifcats/DenoInstallationResult.PNG)
 
-Learn more: Find more information about Demo [here](https://deno.land/)
+Learn more: Find more information about Deno [here](https://deno.land/)
