@@ -1,6 +1,6 @@
 # Deno Installation
 
-Below steps are optional and installs Chocolatey. Chocolatey is Package Manager for Windows.
+Below step are optional and installs Chocolatey. Chocolatey is Package Manager for Windows.
 ## Install Choco
 1. Open PowerShel as admin
 2. Run either of below commands   
