@@ -4,14 +4,14 @@
 0. Introduction
 1. How to Develop & Publish a report. What are Workspaces?
 2. [Discuss Licensing in Power BI](https://powerbi.microsoft.com/en-us/pricing/)
-  Premium license includes both - Power BI Report Server and the Power BI service. This is dual use license.
+  Premium license includes both - Power BI Report Server and the Power BI service. This is dual use license
 3. Microsfot's Cloud First Mobile First approach - [Power BI desktop vs Report Server](https://docs.microsoft.com/en-us/power-bi/report-server/compare-report-server-service)
 4. Building Reports from browser and its limitations (Slow & Limited features - as of May 2020*)
-5. Where does data live? Is it live?
+5. Where does data live? Is it live?  
   When you click on 'Refersh' button on Power BI Desktop. It will 1.) Reload data from all data-sources 2.) Reapply transformations 3.) Reload visualizations
-6. What are DataSets?
+6. What are DataSets?  
   Rememeber: Your Reports -> Datasets -> Data
-6. Q&A - Ask a question & Pin it
+6. Q&A - Ask a question & Pin it  
    Ask questions using Natural language (English only - as of May 2020*)
 7. Roles - Role level security
 8. Apps
@@ -48,3 +48,4 @@ Steps
 11. Can you create a report for Power BI Report Server and later deploy it to Power BI Service?
 12. Which among Power BI Report Server and Power BI Serive is cloud offering?
 13. Which license do you need to share reports using Power BI Service?
+14. How can quick prototype without getting access to client data?
