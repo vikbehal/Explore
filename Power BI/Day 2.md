@@ -16,9 +16,9 @@
    -Pin between dashboards for easy duplications  
    -What are featured and favourite dashboards?
 6. Roles - Role level security (RLS)  
-  -Create role level security using Modeling tab -> Manage Roles. You can visualize it using 'View as Roles' under same tab. 
+  -Create role level security using Modeling tab -> Manage Roles. You can visualize it using 'View as Roles' under same tab  
   -Same report can be seen by multiple stakeholders given right permissions are set. This avoid creation of multiple reports and thus maintenance overhead  
-  -Combine with USERNAME() function and table relationships to create dynamic filters  
+  -Combine with USERNAME() function and table relationships to create dynamic securituy rules  
   -RLS requires Power BI Pro license
 7. What are Apps? How do they allow easy experimentation and security around reports?  
   -Apps are packaged reports, dashboards and datasets  
@@ -38,7 +38,7 @@ Download from [here](https://docs.microsoft.com/en-us/power-bi/create-reports/sa
 3. What are Apps?
 4. Can you create a report for Power BI Report Server and later deploy it to Power BI Service?
 5. Which among Power BI Report Server and Power BI Serive is cloud offering?
-6. How can quick prototype without getting access to client data?
+6. How can you quick prototype without getting access to client data?
 7. How do you pin reports on dashboards? 
 8. What is Pin Live?
 9. How do you go full screen mode?
