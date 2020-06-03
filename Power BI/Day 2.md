@@ -15,10 +15,16 @@
    -Dashboards are created by pinning visual to a new or existing dashboard  
    -Pin between dashboards for easy duplications  
    -What are featured and favourite dashboards?
-6. Roles - Role level security  
+6. Roles - Role level security (RLS)  
   -Create role level security using Modeling tab -> Manage Roles. You can visualize it using 'View as Roles' under same tab. 
-  -Same report can be seen by multiple stakeholders given right permissions are set. This avoid creation of multiple reports and thus maintenance overhead
-7. What are Apps? How do they allow easy experimentation and security around reports?
+  -Same report can be seen by multiple stakeholders given right permissions are set. This avoid creation of multiple reports and thus maintenance overhead  
+  -Combine with USERNAME() function and table relationships to create dynamic filters  
+  -RLS requires Power BI Pro license
+7. What are Apps? How do they allow easy experimentation and security around reports?  
+  -Apps are packaged reports, dashboards and datasets  
+  -Share with other Power BI users  
+  -Customize for different users  
+  -Add title, description and image/logo  
 
 ## Sample Data
 Download from [here](https://docs.microsoft.com/en-us/power-bi/create-reports/sample-datasets)
