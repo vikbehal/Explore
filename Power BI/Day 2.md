@@ -3,7 +3,7 @@
 ## Discussion Points
 1. [What is Power BI Report Server](https://docs.microsoft.com/en-us/power-bi/report-server/compare-report-server-service)  
   -Power BI desktop's version on development machine and deployment machine must match  
-  -This is license with either 1) SQL server Enterprise Edition (with Software Assurance) 2) Power BI Premium
+  -This is licensed with either 1) SQL server Enterprise Edition (with Software Assurance) 2) Power BI Premium
 2. Power BI can also be used as self-service sign-up  
   -This is possible for compaines/users without Office 365. A tenant is provisioned when user signs up for just self-service as well
 3. Find your license information under My Workspace -> Manage personal storage
