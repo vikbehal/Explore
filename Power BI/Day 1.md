@@ -1,10 +1,12 @@
 # Power BI
 
 ## Discussion Points
-0. Introduction
+0. Introduction  
 1. How to Develop & Publish a report. What are Workspaces?
-2. [Discuss Licensing in Power BI](https://powerbi.microsoft.com/en-us/pricing/)
-  Premium license includes both - Power BI Report Server and the Power BI service. This is dual use license
+2. [Discuss Licensing in Power BI](https://powerbi.microsoft.com/en-us/pricing/)  
+  -Premium license includes both - Power BI Report Server and the Power BI service. This is dual use license  
+  -Pre-user license is either Free or Pro. Per-server or Capacity license is Premium License  
+  -Premium has dedicated capacity on a reserved server in Azure. This license allows allows unlimited users to view report content
 3. Microsfot's Cloud First Mobile First approach - [Power BI desktop vs Report Server](https://docs.microsoft.com/en-us/power-bi/report-server/compare-report-server-service)
 4. Building Reports from browser and its limitations (Slow & Limited features - as of May 2020*)
 5. Where does data live? Is it live?  
