@@ -30,7 +30,7 @@ Steps
 
 ## Reflect after lesson or lab
 1. What are Workspaces?
-2. Can I create multiple workspace on Free Tier?
+2. Can I create multiple workspaces on Free Tier?
 3. When does switching from Power BI Pro to Premium makes sense?
 4. What is Power BI Service?
 5. What is the need of Dashboards?
