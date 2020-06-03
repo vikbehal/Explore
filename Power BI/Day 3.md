@@ -1,7 +1,12 @@
 # Power BI
 
 ## Discussion Points
-1. Migration of legacy reports into Power BI
+1. Working with Excel in Power BI  
+  - Connect and use contents as data  
+  -Data must be formatted in columnar manner is Excel  
+  -Can use worksheets or Excel tables
+  - Import entire workbook, including reports and exports as if you were in Excel Online
+2. Migration of legacy reports into Power BI
 
 ## Sample Data
 Download from [here](https://docs.microsoft.com/en-us/power-bi/create-reports/sample-datasets)
