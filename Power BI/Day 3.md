@@ -16,6 +16,7 @@
   -Data must be formatted in columnar manner is Excel  
   -Can use worksheets or Excel tables
   - Import entire workbook, including reports and exports as if you were in Excel Online 
+4. How to create a Animated report in Power BI
 
 ## Sample Data
 Download from [here](https://docs.microsoft.com/en-us/power-bi/create-reports/sample-datasets)
