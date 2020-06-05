@@ -26,9 +26,22 @@
   -Demo
 4. Web Scrapping Demo
 5. Data Transformation  
-  -Introduction to Power Query and its need  
-
-
+  - Introduction to Power Query and its need  
+  -Powery Query Editor enables you to load data and apply transformations  
+  -Ribbon has four tabs - Home, Transform, Add Column and View  
+  -Home: Import data, hide or delete columns, reduce rows, merge and append queries  
+  -Transform: Create aggregated columns, transpose, pivot, unpivot, split values  
+  -Add Column: Add columns, add indexex, apply functions  
+  -View: Show or hide the query settings pane
+  - Applied Steps  
+  -Query Editor records all transformations to a query in the Applied Steps setting  
+  -All transformations are listed in order of creation  
+  -Navigation includes select tables and views  
+  -Can reorder, delete, undo or rename steps  
+  - Advanced Editor  
+  -It shows actual query written in M Power Query Formula Language  
+  -The list of steps mentioned in the query are in the same order as transformation steps  
+  -You can edit the query, but use syntax checker
 
 ## Sample Data
 Download from [here](https://docs.microsoft.com/en-us/power-bi/create-reports/sample-datasets)
