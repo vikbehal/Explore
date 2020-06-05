@@ -24,7 +24,10 @@
 2. What is MarketPlace?  
 3. Migration of legacy reports into Power BI  
   -Demo
-4. Web Scrapping Demo
+4. Web Scrapping Demo  
+  -Import data from a website that provides data in tabular structure  
+  -Import using Get Web, Web  
+  -be aware that source data could be removed
 5. Data Transformation  
   - Introduction to Power Query and its need  
   -Powery Query Editor enables you to load data and apply transformations  
@@ -42,6 +45,14 @@
   -It shows actual query written in M Power Query Formula Language  
   -The list of steps mentioned in the query are in the same order as transformation steps  
   -You can edit the query, but use syntax checker
+6. Demo: Append and Merge in Power Query  
+  - Merge one table into another using a joining column  
+  -Choose from join types  
+  -All columns are initially merged, but use the selector to choose which columns you want to keep  
+  - Append rows from one or more table to another table  
+  -Column data does not have to match  
+  -Mismatching can result in unclean data and nulls  
+  -Add index to combine table
 
 ## Sample Data
 Download from [here](https://docs.microsoft.com/en-us/power-bi/create-reports/sample-datasets)
@@ -50,7 +61,7 @@ Download from [here](https://docs.microsoft.com/en-us/power-bi/create-reports/sa
 1. Migrate a legacy Power View report to Power BI and find what works and what does not (Limitations of migrated report in Power BI)  
 2. Use web scrapping technique to fecth data from Internet and build reports   
 3. Explore Marketplace and import 'Play Axis (Dynamic Slicer)' chart and build Animated Power BI using it  
-4. Perform data transformation. You shall at least rename, remove and split columns
+4. Perform data transformation. You shall at least rename, remove, move, naming moves, Append and Merge
 
 ## Reflect after lesson or lab
 1. How to you import legacy Excel Reports into Power BI?
@@ -60,3 +71,4 @@ Download from [here](https://docs.microsoft.com/en-us/power-bi/create-reports/sa
 5. What is Web Scrapping? How does it help in Power BI?
 6. What is Power Query?  
 7. How do you find algorithm behind data transformation?
+8. What is Merge and Append in Power Query?
