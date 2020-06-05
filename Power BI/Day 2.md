@@ -15,16 +15,6 @@
    -Dashboards are created by pinning visual to a new or existing dashboard  
    -Pin between dashboards for easy duplications  
    -What are featured and favourite dashboards?
-6. Roles - Role level security (RLS)  
-  -Create role level security using Modeling tab -> Manage Roles. You can visualize it using 'View as Roles' under same tab  
-  -Same report can be seen by multiple stakeholders given right permissions are set. This avoid creation of multiple reports and thus maintenance overhead  
-  -Combine with USERNAME() function and table relationships to create dynamic securituy rules  
-  -RLS requires Power BI Pro license
-7. What are Apps? How do they allow easy experimentation and security around reports?  
-  -Apps are packaged reports, dashboards and datasets  
-  -Share with other Power BI users  
-  -Customize for different users  
-  -Add title, description and image/logo  
 
 ## Sample Data
 Download from [here](https://docs.microsoft.com/en-us/power-bi/create-reports/sample-datasets)
@@ -35,11 +25,9 @@ Download from [here](https://docs.microsoft.com/en-us/power-bi/create-reports/sa
 ## Reflect after lesson or lab
 1. How do you find your Power BI License information?
 2. How do you define and Visualize Roles?
-3. What are Apps?
-4. Can you create a report for Power BI Report Server and later deploy it to Power BI Service?
-5. Which among Power BI Report Server and Power BI Serive is cloud offering?
-6. How can you quick prototype without getting access to client data?
-7. How do you pin reports on dashboards? 
-8. What is Pin Live?
-9. How do you go full screen mode?
-10. How to enabled last refresh time on tiles? What is the significance of it?
+3. Can you create a report for Power BI Report Server and later deploy it to Power BI Service?
+4. Which among Power BI Report Server and Power BI Serive is cloud offering?
+5. How can you quick prototype without getting access to client data?
+6. How do you pin reports on dashboards? 
+7. What is Pin Live?
+8. How do you go full screen mode?
