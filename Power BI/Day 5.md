@@ -19,7 +19,9 @@ Problem Statement: What if we want to reuse Power Query?
   -Informatica  
   -SSIS  
   -Power Query (Power BI)  
-**Note: This concludes Power Query**
+**Note: This concludes Power Query**  
+5. Data Source -> Data Flows -> (Data Set -> Data Modeling ->) Build Reports  
+  -Do specific calculations in reports (Visualizations). This way your data model will be generic enough to build multiple reports.
 
 
 ## Sample Data
