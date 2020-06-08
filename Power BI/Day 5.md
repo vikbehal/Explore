@@ -86,4 +86,4 @@ Download from [here](https://docs.microsoft.com/en-us/power-bi/create-reports/sa
 3. Replicate demo of how to Create custom columns, sort columns based on other columns, etc.
 
 ## Reflect after lesson or lab
-<TBD>
+- TBD
