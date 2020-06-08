@@ -33,7 +33,7 @@ Problem Statement: What if we want to reuse Power Query?
   - Fact and dimension tables - Main (fact) table is at the center (e.g. Sales) and then every other table is like ray (e.g. Customer)  
   Note: In Datawarehousing you would usually use [Star or Snowflake schema](https://techdifferences.com/wp-content/uploads/2017/12/Untitled1.jpg)  
   -Power BI works really welll with either of these schemas, but the data need not to be in these schema types  
-  - Cross filtering (Later)  
+  - Cross filtering (To be covered later)   
   - Reduce size of dataset - Remove unnecessary data-columns or sensitive data  
 2. Data Refresh  
   - Freuqency  
@@ -45,7 +45,20 @@ Problem Statement: What if we want to reuse Power Query?
   -Scheduled refresh  e.g. everuyday at 3 PM (just like windows scheduler)  
   -Automatic refresh 
   -Only available for certain type of data types   
-  -SharePoint Online is supported for Automatic refresh. Since both Power BI and SharePoint Online are in cloud, there are hooks to find out if a particular report data source file is changed. If so, the data would automatically refresh 
+  -SharePoint Online is supported for Automatic refresh. Since both Power BI and SharePoint Online are in cloud, there are hooks to find out if a particular report data source file is changed. If so, the data would automatically refresh (within a few minutes upto an hour)  
+  -One drive for business is also supported for Automatic Refresh  
+  - Only "Import" connection requires refresh  
+  -DirectQuery and Live connection mode do not require refresh to be configured (To be covered later)  
+  - Best Practices  
+  -Schema must remain same (This is more of a issue with files created manually e.g. Excel. Databases have strong change management system so those are more reliable)  
+  -Name of the file must be same  
+  -Demo: Parameters  
+  -File type must be same  
+  -Data Structure must be largely same  
+  -Power BI ignores format changes to columns  
+  -New columns can be added without breaking refresh  
+  -Removing column might break the refresh
+  
 
 ## Sample Data
 Download from [here](https://docs.microsoft.com/en-us/power-bi/create-reports/sample-datasets)
