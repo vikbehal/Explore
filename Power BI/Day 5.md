@@ -9,7 +9,7 @@
   a. Data -> Data Flows (Transform here)  
   b. Data Flows -> Build Reports 
   -Data Flow is available on Pro Tier and above
-2. Demo: Build Data Flows  
+2. Demo: Build Data Flows and create reports out of it    
   -Get Data -> Search for dataflow  
 3. How to clear Data Source Connections
 4. Enterprise level tool - Scalibility, Multiple reports, Governance, etc.
