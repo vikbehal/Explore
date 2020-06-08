@@ -32,7 +32,7 @@ Problem Statement: What if we want to reuse Power Query?
   Note: In Datawarehousing you would usually use [Star or Snowflake schema](https://techdifferences.com/wp-content/uploads/2017/12/Untitled1.jpg)  
   -Power BI works really welll with either of these schemas, but the data need not to be in these schema types  
   - Cross filtering (Later)  
-  - Reduce size of dataset - Remove unnecessary data-columns
+  - Reduce size of dataset - Remove unnecessary data-columns or sensitive data
 
 ## Sample Data
 Download from [here](https://docs.microsoft.com/en-us/power-bi/create-reports/sample-datasets)
