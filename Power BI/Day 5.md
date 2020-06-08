@@ -1,6 +1,7 @@
 # Power BI
 
-## Discussion Points
+## Discussion Points  
+Problem Statement: What if we want to reuse Power Query?
 1. [Data Flows](https://docs.microsoft.com/en-us/power-bi/media/service-dataflows-overview/powerbi-dataflows_01.png)  
   -Data Flows allows you to reuse transformations accross reports  
   -Alternatively, you could copy paste same transformation N number of time. If you do so, we have maintenance issue  
@@ -17,8 +18,8 @@
   -IBM InfoSphere DataStage  
   -Informatica  
   -SSIS  
-  -Power Query (Power BI)
-
+  -Power Query (Power BI)  
+**Note: This concludes Power Query**
 
 
 ## Sample Data
