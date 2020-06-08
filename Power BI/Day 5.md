@@ -27,8 +27,12 @@ Problem Statement: What if we want to reuse Power Query?
   -IN RDBS, we usually have multiple tables and we denormalize data (flatten data)  
   -In Power BI, there is no need to flatten data (There are some exceptions though). You let Power BI do it using relationships  
   -Data Types, Fact and dimension tables (create start schema in model), Cross filtering, Reduce size of dataset  
-  -Fact and dimension tables - Main (fact) table is at the center (e.g. Sales) and then every other table is like ray (e.g. Customer)  
-  Note: In Datawarehousing you would usually use [Star or Snowflake schema](https://techdifferences.com/wp-content/uploads/2017/12/Untitled1.jpg)
+  - Data Types - Make sure all columns are in correct data types  
+  - Fact and dimension tables - Main (fact) table is at the center (e.g. Sales) and then every other table is like ray (e.g. Customer)  
+  Note: In Datawarehousing you would usually use [Star or Snowflake schema](https://techdifferences.com/wp-content/uploads/2017/12/Untitled1.jpg)  
+  -Power BI works really welll with either of these schemas, but the data need not to be in these schema types  
+  - Cross filtering (Later)  
+  - Reduce size of dataset - Remove unnecessary data-columns
 
 ## Sample Data
 Download from [here](https://docs.microsoft.com/en-us/power-bi/create-reports/sample-datasets)
