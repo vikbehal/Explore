@@ -11,7 +11,7 @@ Problem Statement: What if we want to reuse Power Query?
   a. Data -> Data Flows (Transform here)  
   b. Data Flows -> Build Reports 
   -Data Flow is available on Pro Tier and above    
-2. Demo: Build Data Flows and create reports out of it    
+2. **Demo: Build Data Flows and create reports out of it**  
   -Get Data -> Search for dataflow  
 3. How to clear Data Source Connections
 4. Enterprise level tool - Scalibility, Multiple reports, Governance, etc.
@@ -52,18 +52,38 @@ Problem Statement: What if we want to reuse Power Query?
   - Best Practices  
   -Schema must remain same (This is more of a issue with files created manually e.g. Excel. Databases have strong change management system so those are more reliable)  
   -Name of the file must be same  
-  -Demo: Parameters  
+  -**Demo: Parameters**  
   -File type must be same  
   -Data Structure must be largely same  
   -Power BI ignores format changes to columns  
   -New columns can be added without breaking refresh  
   -Removing column might break the refresh
+3. Managing data relationships  
+  -Primary Key & Foreign Key  
+  -In Power BI, you can only have single column for PK & FK  
+  -Compound kets are not supported  
+  -Question: What if we do have a one column representing PK or FK?  
+  -Option 1: Merge two or more columns to create PK/FK  
+  -Option 2: Unique row number (just like ID column in SharePoint). In Database terms this is called Identity column  
+  -**Demo: 1) Add Custom column to create a Primary Key** (Add Column -> Custom Column; & as separator) 2) Create Index column (ID/Identity)  
+4. Optimizing Data Model  
+  - Hide columns (It does not remove them from Data Model)  
+  -Right click under Fields pane to see hidden columns  
+  -Switch to Data View to find hidden field
+  - Sorting  
+  -By default every field is sorted by itself  
+  -At times you may want to sort field based on another field e.g. Month Names  
+  -**Demo: Create Order column for Day of Week data** (Enter Manually). Hide Column Order column   - Format  
+  -Change Data types, add currency symbol, or format date type columns, etc.
   
 
 ## Sample Data
 Download from [here](https://docs.microsoft.com/en-us/power-bi/create-reports/sample-datasets)
 
 ## Lab 5
-
+1. Create a Data flow using Power BI Service and create at least 2 reports out of it
+2. Research how you can use APIs to refrsh data in Power BI Premium Service  
+3. Replicate demo of how to Create custom columns, sort columns based on other columns, etc.
 
 ## Reflect after lesson or lab
+<TBD>
