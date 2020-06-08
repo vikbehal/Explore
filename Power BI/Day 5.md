@@ -3,6 +3,7 @@
 ## Discussion Points  
 Problem Statement: What if we want to reuse Power Query?
 ### [Data Flows](https://docs.microsoft.com/en-us/power-bi/media/service-dataflows-overview/powerbi-dataflows_01.png)  
+1. Introduction  
   -Data Flows allows you to reuse transformations accross reports  
   -Alternatively, you could copy paste same transformation N number of time. If you do so, we have maintenance issue  
   -Data Flows also have performance benifits but the real use is to reusability of transformations  
@@ -22,6 +23,7 @@ Problem Statement: What if we want to reuse Power Query?
 5. Data Source -> Data Flows -> (Data Set -> Data Modeling ->) Build Reports  
   -Do specific calculations in reports (Visualizations). This way your data model will be generic enough to build multiple reports. **Note: This concludes Power Query**  
 ### Modeling Data  
+1. Introduction  
 (This is one of the complex module in Power BI e.g. DAX)  
   -Data Model is a collection of tables with fields and relationship between those tables  
   -IN RDBS, we usually have multiple tables and we denormalize data (flatten data)  
@@ -32,7 +34,18 @@ Problem Statement: What if we want to reuse Power Query?
   Note: In Datawarehousing you would usually use [Star or Snowflake schema](https://techdifferences.com/wp-content/uploads/2017/12/Untitled1.jpg)  
   -Power BI works really welll with either of these schemas, but the data need not to be in these schema types  
   - Cross filtering (Later)  
-  - Reduce size of dataset - Remove unnecessary data-columns or sensitive data
+  - Reduce size of dataset - Remove unnecessary data-columns or sensitive data  
+2. Data Refresh  
+  - Freuqency  
+  -Free - 1/Day  
+  -Power BI Pro - 8/Day  
+  -Premium - 48/Day using UI; unlimited using API
+  - Refresh Options  
+  -Refresh Now (manual)  
+  -Scheduled refresh  e.g. everuyday at 3 PM (just like windows scheduler)  
+  -Automatic refresh 
+  -Only available for certain type of data types   
+  -SharePoint Online is supported for Automatic refresh. Since both Power BI and SharePoint Online are in cloud, there are hooks to find out if a particular report data source file is changed. If so, the data would automatically refresh 
 
 ## Sample Data
 Download from [here](https://docs.microsoft.com/en-us/power-bi/create-reports/sample-datasets)
