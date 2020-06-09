@@ -17,7 +17,25 @@
 6. Relationships  
   -Power BI Autodetect feature can recognize relationships, and create them automatically  
   -E.g. In RDBS, it will use schema information (and Primary and Foreign Keys)  
-  -E.g. In Excel, it will use column names and information in fields to make guess
+  -E.g. In Excel, it will use column names and information in fields to make guess  
+  -When Power BI detects more than one relationship between tables, **only one can be active** and set as default  
+  -You can either let Power BI detect relationships or create them manually  
+  -Typically a hybrid approach works best. You let Power BI detect relationships and then manually add missing, remove unwanted to adjust required relationships  
+  -*If you can't create a relationship, it is probably because of NULL, empty values, or duplicate rows*  
+  -*It is absolutely important that data relationships are valid. if not, they might break your visuals or even show incorrect data*  
+  -**Relationhip types** - Cardinality, Cross Filter Direction  
+  - Cardinality  
+  -It is a relationship between two tables  
+  -1:1,*:1, 1:*, *:* (* stands for many)  
+  - Cross Filter Direction  
+  -This relationhip affects how Power BI treats the tables in visualizations  
+  -The cross filter direction is automatically set when relationships are created manually or using Autodetect    
+  -Power BI makes best guess at direction  
+  -This guess can be adjusted manually  
+  -Types: Both, Single  
+  -Both: First tables will filter second and second will filter first as well  
+  -Single: First will filter second but second will not filter first  
+  
   
 ## Tips  
 1. Ctrl+C, Ctrl+V to duplicate a report  
