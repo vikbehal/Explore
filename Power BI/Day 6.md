@@ -23,7 +23,7 @@
   -Typically a hybrid approach works best. You let Power BI detect relationships and then manually add missing, remove unwanted to adjust required relationships  
   -*If you can't create a relationship, it is probably because of NULL, empty values, or duplicate rows*  
   -*It is absolutely important that data relationships are valid. if not, they might break your visuals or even show incorrect data*  
-  -**Relationhip types** - Cardinality, Cross Filter Direction  
+  -**Relationhip types** - Cardinality, Cross Filter Direction, Active/Inactive flag   
   - Cardinality  
   -It is a relationship between two tables  
   -1:1,*:1, 1:*, *:* (* stands for many)  
@@ -35,6 +35,14 @@
   -Types: Both, Single  
   -Both: First tables will filter second and second will filter first as well  
   -Single: First will filter second but second will not filter first  
+  - Active/Inactive flag  
+  -Each relationship in Power BI must be either active or inactive  
+  -Active relationships  
+  -Indicated by solid line  
+  -Used automatically everywhere e.g. when column is dragged into report  
+  -Inactive relationship  
+  -Indicated by dotted line  
+  -Usable only with special DAX functions
   
   
 ## Tips  
