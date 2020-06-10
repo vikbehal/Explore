@@ -42,8 +42,9 @@
   -Used automatically everywhere e.g. when column is dragged into report  
   -Inactive relationship  
   -Indicated by dotted line  
-  -Usable only with special DAX functions
-  
+  -Usable relationship only with special DAX functions
+7. **Demo: Relationships**  
+   -*It is important to setup data model properly otherwise Data Refresh might fail. E.g. if you have a 1:M relationship which is incorrectly mapped as 1:1, and Data Refresh brings data which does not conforms to 1:1, the Data Rerfesh would fail*
   
 ## Tips  
 1. Ctrl+C, Ctrl+V to duplicate a report  
@@ -53,5 +54,18 @@
 Download from [here](https://docs.microsoft.com/en-us/power-bi/create-reports/sample-datasets)
 
 ## Lab 6
+1. Create a Data Model which has hierarchies except Date hierarchy. Ensure your data has Date field. Observe automatically created Date hierarchy
+2. Build a report out of lab in step 1 above. For this report create all 3 types of filters
+3. Finally, Import more than 3 data-sources (SharePoint lists, Excel files, etc.) and make sure relationships are properly defined. You shall check Cardinality, Cross Filter Direction and Active/Inactive flags
 
 ## Reflect after lesson or lab
+1. How many times of filters can we create in Power BI reports?  
+2. What is the difference between All pages and Single page filter?
+3. What is a tooltip? Can we create a pie-chart as tool-tip?
+4. Define Relationships?
+5. What are types of relationships?
+6. What is Auto Detect?
+7. Give an exampe of when Data Refresh may fail due to wrong Data Model
+8. Can two tables have more than 1 relationship?
+9. What is the difference between Active and Inactive flag?
+10. What difference does Active and Inactive flags make in reports?
