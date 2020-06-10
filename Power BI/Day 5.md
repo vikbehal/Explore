@@ -86,4 +86,17 @@ Download from [here](https://docs.microsoft.com/en-us/power-bi/create-reports/sa
 3. Replicate demo of how to Create custom columns, sort columns based on other columns, etc.
 
 ## Reflect after lesson or lab
-- TBD
+1. What are Data Flows?
+2. What problem do Data Flow solve?
+3. How can you use Power Query in Power BI Service?
+4. What is Data Modeling?
+5. Do we needto denormalize data in Power BI?
+6. What is the difference between Star and Snowflake schema?
+7. Can we build reports in Power BI without Start or Snowflake schema?
+8. What is a fact table?
+9. What are the 3 main ways one can refresh data?
+10. Does all data-sources support Automatic Data Refresh?
+11. Under what conditions Data Refresh might fail?
+12. Will all of the reports will stop working when Data Refresh fails?
+13. What are Parameters? What is the use of them?
+14. How can we sort data which is naturally not sorted in desired format. E.g. Name of months
