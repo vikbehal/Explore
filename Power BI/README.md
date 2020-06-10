@@ -5,6 +5,7 @@
 3. [Day 3 material](https://github.com/vikbehal/Explore/blob/master/Power%20BI/Day%203.md) 
 4. [Day 4 material](https://github.com/vikbehal/Explore/blob/master/Power%20BI/Day%204.md)
 5. [Day 5 material](https://github.com/vikbehal/Explore/blob/master/Power%20BI/Day%205.md)
+5. [Day 6 material](https://github.com/vikbehal/Explore/blob/master/Power%20BI/Day%206.md)
 
 Note: Each day's material contains topics learnt, lab and reflections points.
 
