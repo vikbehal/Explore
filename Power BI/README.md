@@ -10,5 +10,5 @@
 Note: Each day's material contains topics learnt, lab and reflections points.
 
 ## Certifications
-1. [Analyzing and Visualizing Data with Microsoft Excel](https://www.microsoft.com/en-us/learning/exam-70-778.aspx)  
-2. [Analyzing and Visualizing Data with Microsoft Power BI](https://www.microsoft.com/en-us/learning/exam-70-779.aspx)
+1. [Analyzing and Visualizing Data with Microsoft Excel](https://www.microsoft.com/en-us/learning/exam-70-779.aspx)  
+2. [Analyzing and Visualizing Data with Microsoft Power BI](https://www.microsoft.com/en-us/learning/exam-70-778.aspx)
