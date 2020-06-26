@@ -19,7 +19,26 @@
 -Row Context is the current row. Often applied to measures to identify a single row  
 -Filter context - Exists in addition to row context. It incorporates any explicit filters (filter panel) and implicit filters (visualization level). Filter context changes on the fly  
 -Filter contexts are used in visualizations; e.g. a chart with Sales, Sales person, and month. The chart returns subsets of data based on a specific Sales Person, and Month  
--You can apply filter contexts using visualizations, and DAX
+-You can apply filter contexts using visualizations, and DAX  
+4. One can create 3 type of entities using DAX  
+- Calculated columns  (Not so often used)
+-Calculated columns are added to tables using DAX formulas to perform operations on existing data  
+-Columns created using DAX instead of Power Query or data source  
+-Useful when the model does not have the data you need  
+-Concatenate strings, calculate numbers, or combine data from elsewhere in the model  
+-After creating, use in visualizations as you would any other column  
+- calculated tables  (Not so often used)
+-Create calculated tables using data that exists in the model  
+-Use functions such as UNION, NATURALINNERJOIN, NATURALOUTERJOIN, or DATATABLE  
+-Calculated tables are used in the same way as other tables. Rename table and columns, use in relationships with other tables, change data types, add columns, measures, and use in visualizations  
+-Sometimes it is used to create a Date table for a range of dates e.g. 1900 - Today (2020)  
+- Measures (Most commonly used)
+-Measures help you discover insights into your data that might otherwise be hidden  
+-Include aggregations in your measures, such as average, minimum, maximum, count distinct DAX functions  
+-Use other DAX functions to create complex calculations  
+-**Useful to highlighting running totals, comparing sales this year to date with sales for the same period last year, and sales forecasting**  
+-Measures are used in visualizations like columns with some limitations e.g. they can not be used on Axis because it does not distinct values since they are calculated
+
 
 
 
