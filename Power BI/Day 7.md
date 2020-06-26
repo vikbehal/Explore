@@ -4,9 +4,15 @@
 ### DAX - Data Analysis Expressions is a formula language
 1. Use DAX or calculate and return single value, or multiple values  
 2. DAX already exists in Power Pivot for Excel, SSAS and Power BI. It is designed to work with relational data  
-3. Perform calculations like year-on-year sales, running total  
+3. Perform calculations like year-on-year sales, running total 
 4. It is used to for dynamic calculations  
 5. DAX is fairly complex, so it is used for dynamic calculations. Power BI provides inbuild functions for common transformations, for which DAX should not be used  
+6. DAX formulas must be syntactically correct before you can save them to the model.  
+7. Sample **Measure/Calculated Column = calculated function**  
+8. DAX functions are predefined formulas that perform calculations on one or more arguments  
+9. You can pass a column, expression, formula, constant, number, text, TRUE or FALSE as arguments  
+10. DAX library has 200+ functions  
+11. 
 
 
 
