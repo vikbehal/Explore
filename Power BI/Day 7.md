@@ -39,13 +39,21 @@
 -**Useful to highlighting running totals, comparing sales this year to date with sales for the same period last year, and sales forecasting**  
 -Measures are used in visualizations like columns with some limitations e.g. they can not be used on Axis because it does not distinct values since they are calculated
 5. Demo Calculated Column, Calculated tables and Measures  
--DAX functions, just like any other coding language, shall be formatted. For insenstive data, you may use [daxformatter.com](https://www.daxformatter.com/)
+-DAX functions, just like any other coding language, shall be formatted. For insenstive data, you may use [daxformatter.com](https://www.daxformatter.com/)  
+-Result of measure does NOT change depending on the table it is in. They do not belong to one table    
+-Home table - What are they?  
+-By default measures are in the context of entire data model  
+-Implicit and Explicit filters  
+-Measures can be moved from one table to another table using **Measure tools -> Home table**. Doing so does not impact the visualizations since measures do not belong to one table  
+-Unlike Calculated tables or Calculated columns, which are saved inside data model, measures are functions which are dynamic. You can not set relationships on them  
 
 
 
 
 ## Tips  
-
+1. One of the best learning book is [this](https://www.amazon.com/Definitive-Guide-DAX-intelligence-Microsoft-ebook/dp/B07TS4FPZM) 
+2. [website by authors](https://www.sqlbi.com/)  
+3. [DAX Patterns](https://www.daxpatterns.com/)
 
 ## Sample Data
 Download from [here](https://docs.microsoft.com/en-us/power-bi/create-reports/sample-datasets)
