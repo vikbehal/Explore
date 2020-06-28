@@ -38,6 +38,8 @@
 -Use other DAX functions to create complex calculations  
 -**Useful to highlighting running totals, comparing sales this year to date with sales for the same period last year, and sales forecasting**  
 -Measures are used in visualizations like columns with some limitations e.g. they can not be used on Axis because it does not distinct values since they are calculated
+5. Demo Calculated Column, Calculated tables and Measures  
+-DAX functions, just like any other coding language, shall be formatted. For insenstive data, you may use [daxformatter.com](https://www.daxformatter.com/)
 
 
 
