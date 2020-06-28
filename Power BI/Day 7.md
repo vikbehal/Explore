@@ -27,7 +27,7 @@
 -Useful when the model does not have the data you need  
 -Concatenate strings, calculate numbers, or combine data from elsewhere in the model  
 -After creating, use in visualizations as you would any other column  
-- calculated tables  (Not so often used)
+- Calculated tables  (Not so often used)
 -Create calculated tables using data that exists in the model  
 -Use functions such as UNION, NATURALINNERJOIN, NATURALOUTERJOIN, or DATATABLE  
 -Calculated tables are used in the same way as other tables. Rename table and columns, use in relationships with other tables, change data types, add columns, measures, and use in visualizations  
