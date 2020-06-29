@@ -59,6 +59,23 @@
 Download from [here](https://docs.microsoft.com/en-us/power-bi/create-reports/sample-datasets)
 
 ## Lab 7
-
+1. Import data and perform following functions using DAX  
+-IF  
+-DATEDIFF
+-Perform concat using &  
+-RELATED  
+-CURRENCY
 
 ## Reflect after lesson or lab
+1. What is full form of DAX?  
+2. Was DAX build for Power BI?  
+3. How many formulas does DAX library has for Power BI?  
+4. What is Context?  
+5. How many types of context does DAX have?  
+6. What is the use of Calculated Columns?  
+7. Why do we need Calculated tables?  
+8. What are Measures and how are they different than Calculated Columns?  
+9. Which table does a measure belong to?  
+10. What is home table?  
+11. What is the context of Measures?  
+12. Can you set relationships on Measures?
