@@ -23,17 +23,27 @@
 -Optionally include the data labels and a chart title  
 - KPI  
 -Visualize a business objective and show progress towards the goal  
+#### Maps
+-Microsoft maps use Bing maps technology  
+- Map chart  
+-Represents data as propotionally sized, color-coded bubbles -Good for data based on cities  
+- Filled map chart  
+-Uses shading accross a region; darker shades for higher numbers, or rather, high density  
+-Useful for demographic data  
+- ArcGIC map chat  
+-Uses points, areas, clusters, heat maps  
+-Can analyze your data against demographic layers  
 
 
 
 
 ## Tips  
-
+1. [ersi's](https://www.esri.com) is a good place for getting inspiration for geographical chats
 
 ## Sample Data
 Download from [here](https://docs.microsoft.com/en-us/power-bi/create-reports/sample-datasets)
 
-## Lab 6
+## Lab 8
 
 
 ## Reflect after lesson or lab
