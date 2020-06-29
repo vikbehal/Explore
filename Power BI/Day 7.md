@@ -60,11 +60,11 @@ Download from [here](https://docs.microsoft.com/en-us/power-bi/create-reports/sa
 
 ## Lab 7
 1. Import data and perform following functions using DAX  
--IF  
--DATEDIFF
--Perform concat using &  
--RELATED  
--CURRENCY
+- IF  
+- DATEDIFF
+- Perform concat using &  
+- RELATED  
+- CURRENCY
 
 ## Reflect after lesson or lab
 1. What is full form of DAX?  
