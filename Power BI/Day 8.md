@@ -57,13 +57,13 @@
 
 ## Tips  
 1. [ersi's](https://www.esri.com) is a good place for getting inspiration for geographical chats  
-2. Filled maps which  takes the shape of geographic area e.g. each state of U.S. are called Chroropleth  
-3. Matrix typically has dynamic columns and rows, whereas table has fixed columns
+2. Filled maps which  takes the shape of geographic (polygons) area e.g. each state of U.S. are called Chroropleth  
+3. Matrix typically has dynamic columns and rows, whereas table has fixed columns  
+4. Maps can sometimes show data in wrong position, this happens if the geocoder had to guess. E.g. Cambridge location is in Boston, US as well as in the UK. Now if you are developing maps from US, it might guess Cambridge in Bosotn. To correct this, consider creating a single field which helps geocoder to map it correctly e.g. City, State, Country, ZipCode
 
 ## Sample Data
 Download from [here](https://docs.microsoft.com/en-us/power-bi/create-reports/sample-datasets)
 
 ## Lab 8
-
 
 ## Reflect after lesson or lab
