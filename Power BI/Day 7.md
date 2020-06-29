@@ -58,7 +58,7 @@
 ## Sample Data
 Download from [here](https://docs.microsoft.com/en-us/power-bi/create-reports/sample-datasets)
 
-## Lab 6
+## Lab 7
 
 
 ## Reflect after lesson or lab
