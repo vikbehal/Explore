@@ -46,8 +46,14 @@
 -Can add rows, columns, and values  
 -Can enable drilldown  
 #### Tree Maps
-
-
+- The tree map functionality represents a tree, even though it does not look like one  
+-Data represented as a rectangle or branch  
+-Branch can be further divided into nested rectangles, or leaves of a branch  
+- Represents data hierarchically  
+- Efficient use of space  
+-Flattens data to show two layers - e.g. sales by country, with each country broken into territories  
+-No need to drill down  
+#### Demo
 
 ## Tips  
 1. [ersi's](https://www.esri.com) is a good place for getting inspiration for geographical chats  
