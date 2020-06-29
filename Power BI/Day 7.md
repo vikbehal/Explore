@@ -64,7 +64,8 @@ Download from [here](https://docs.microsoft.com/en-us/power-bi/create-reports/sa
 - DATEDIFF
 - Perform concat using &  
 - RELATED  
-- CURRENCY
+- CURRENCY  
+2. Create a Measure and see how it works in filter context
 
 ## Reflect after lesson or lab
 1. What is full form of DAX?  
