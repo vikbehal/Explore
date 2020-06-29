@@ -33,12 +33,26 @@
 - ArcGIC map chat  
 -Uses points, areas, clusters, heat maps  
 -Can analyze your data against demographic layers  
-
+#### Tables and Matrices  
+- Display data in columns and rows  
+-Useful for displaying numeric data, such as financials  
+-Each numeric column is aggregated  
+- Table  
+-Best for small datasets  
+-Includes very little visual formatting  
+-Data must be read to be understood  
+-Consumes a lot of space on the report canvas  
+- Matrix  
+-Can add rows, columns, and values  
+-Can enable drilldown  
+#### Tree Maps
 
 
 
 ## Tips  
-1. [ersi's](https://www.esri.com) is a good place for getting inspiration for geographical chats
+1. [ersi's](https://www.esri.com) is a good place for getting inspiration for geographical chats  
+2. Filled maps which  takes the shape of geographic area e.g. each state of U.S. are called Chroropleth  
+3. Matrix typically has dynamic columns and rows, whereas table has fixed columns
 
 ## Sample Data
 Download from [here](https://docs.microsoft.com/en-us/power-bi/create-reports/sample-datasets)
