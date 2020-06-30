@@ -98,5 +98,6 @@
 Download from [here](https://docs.microsoft.com/en-us/power-bi/create-reports/sample-datasets)
 
 ## Lab 8
+1. Create visualizations mentioned above and try formatting charts and page layouts
 
 ## Reflect after lesson or lab
