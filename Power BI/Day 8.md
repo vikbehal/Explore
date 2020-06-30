@@ -1,7 +1,7 @@
 # Power BI
 
 ## Discussion Points
-### DAX - Visualizations
+### Visualizations
 1. Types - Charts, Cards, Maps, Tables and Matrices, Tree maps    
 #### Charts
 - Bar and column charts  
@@ -53,7 +53,27 @@
 - Efficient use of space  
 -Flattens data to show two layers - e.g. sales by country, with each country broken into territories  
 -No need to drill down  
-#### Demo
+#### Demo of Visualizations  
+#### Formatting Charts  
+- All charts can be customized with colors and borders  
+-Show or hide a chart title, change font and size  
+-Set X and Y position, width and height of each chart  
+-Show or hide axis, data labels, or legends  
+-Set colors od data points - e.g. all columns - or by each value  
+- Add shapes, text boxes, and images  
+-Use shapes to group related visuals  
+-Use text boxes to add headers or create hyperlinks  
+-Add corporate logos, pictures, or photos to enhance report  
+- Right-click bar or line: drill down to underlying records  
+- cutomize tooltips by adding extra fields  
+- Quick measures quickly change the aggregation on a field  
+- Add trend, constant, and dynamic reference lines to charts  
+#### Page layouts and formatting
+-Customize each report using formatting options  
+- Page name: give each report a name to describe the content, rather than the Power BI default Page 1, Page 2  
+- Page size: default aspect ratio is 16:9. Change to 4:3, Cortana, Letter, or set width and height in pixels using Custom Option  
+- Page background: change the background color and transparency. Use theme color, or own color. Use image to create highly customized reports  
+- Page view: alter the zoom on the page. Default is Page view-fits all visuals onto screen. Choose Actual Size for one-to-one pixel mapping
 
 ## Tips  
 1. [ersi's](https://www.esri.com) is a good place for getting inspiration for geographical chats  
