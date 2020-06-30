@@ -74,6 +74,19 @@
 - Page size: default aspect ratio is 16:9. Change to 4:3, Cortana, Letter, or set width and height in pixels using Custom Option  
 - Page background: change the background color and transparency. Use theme color, or own color. Use image to create highly customized reports  
 - Page view: alter the zoom on the page. Default is Page view-fits all visuals onto screen. Choose Actual Size for one-to-one pixel mapping
+#### Working with multiple visualizations
+-Use Settings and formatting to ensure multiple visuals interact correctly on a report  
+- Visual relationships 
+-Filter: Only show corresponding data  
+-None: Show all data, do not interact  
+-Highlight: show all data, corresponding values highlighted  
+-Typically visualizations on the same page are interactive i.e. if you click on a part of one chart, say, pie chart, all other visuals on the page will be filtered based on that selection. This is because of the relationships that are present in the model  
+-You may choose to keep one (or some) visualizations static by editing interaction setting. To change it, Select source visual, click on 'Edit interactions' under Format tab, select destination visual (the visual that you intend to keep static), and then click on 'None'. Then, exit 'Edit interactions'. Do this for every [source] visual present on the report  
+- Show items with no data: displays items with empty values, value of 0 included by default  
+- Default summarization: change from the default sum to average, minimum, maximum, count or count distinct  
+- Default categorization: e.g. ensure address fields are categorized as City rather than Country, or State  
+- Arrange report elements: sending visuals forwards or backwords to create layers-known as z-order
+
 
 ## Tips  
 1. [ersi's](https://www.esri.com) is a good place for getting inspiration for geographical chats  
