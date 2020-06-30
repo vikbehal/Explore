@@ -3,7 +3,7 @@
 ## Discussion Points
 #### Power BI settings  
 1. [Power BI Admin portal](https://docs.microsoft.com/en-us/power-bi/service-admin-portal)  
--Access it from Power BI Portal -> click on gear icon -> Admin Portal  
+-Access it from Power BI Service -> click on gear icon -> Admin Portal  
 - View and manage administrative settings  
 - Only available to 1) Power BI service administrators 2) O365 Global Admins  
 - Includes  
@@ -13,7 +13,7 @@
 -Tenant settings: configure functionality for the tenant  
 -Capacity settings: configure and monitor capacities
 2. Power BI service settings  
--Access it from Power BI Report -> click on gear icon -> Settings
+-Access it from Power BI Service -> click on gear icon -> Settings
 - General  
 -Manage privacy, language, close account, enable custom visuals, and ArcGIS maps  
 - Dashboards  
@@ -24,7 +24,8 @@
 -Rename and delete workbooks  
 - Alerts  
 -Turn off, rename, delete, and configure alerts
-3. Power BI Desktop settings
+3. Power BI Desktop settings  
+-Access it from Power BI desktop -> File -> Options and settings -> Options  
 - Global: set the data load cache; configure Power Query Editor options; configure R home directories and IDE; set global privacy; enable sending of usage data to Microsoft; turn on diagnostic tracing, and manage auto recovery options to present accidental loss of work  
 - Current file: manage data load options; change regional settings (locale); set privacy and auto recovery options  
 - Data source: change location of file sources; manage credentials and privacy levels: None, Private, Organizational, or Public  
