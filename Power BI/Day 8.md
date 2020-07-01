@@ -98,6 +98,13 @@
 Download from [here](https://docs.microsoft.com/en-us/power-bi/create-reports/sample-datasets)
 
 ## Lab 8
-1. Create visualizations mentioned above and try formatting charts and page layouts
+1. Create visualizations mentioned above and try formatting charts and page layouts  
+- Build map chart using Address, City, State, Country, Zipcode. Make sure Data Category is correctly given to each one of the column  
+-Full address can be created using formula
+```
+FullAddress = Customers[AddressLine1] & ", " & Customers[City] & ", " & Customers[StateProvince] & ", " & Customers[CountryRegion] & ", " & Customers[PostalCode]
+```
+- Internal columns/tables can be hidden using 'Hide in report view' feature
+2. Create bar charts with Constant Line from Analytics tab. Not all reports has this feature
 
 ## Reflect after lesson or lab
