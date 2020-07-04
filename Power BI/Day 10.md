@@ -21,6 +21,11 @@ Import, Direct Query, Composite (Import + direct),
 | DirectQuery| No | Yes |
 | Live | No | No |
 
+#### Data gateways  
+- To connect to on-prem data  or cloud-based IaaS data sources  
+- It is a free software that you install on your servers  
+- There is also personal mode, but it is not recommended  
+- Power BI Service -> Gateway -> data  
 
 
 ## Tips
@@ -33,7 +38,7 @@ Import, Direct Query, Composite (Import + direct),
 ## Sample Data
 Download from [here](https://docs.microsoft.com/en-us/power-bi/create-reports/sample-datasets)
 
-## Lab 9
+## Lab 10
 
 
 ## Reflect after lesson or lab
