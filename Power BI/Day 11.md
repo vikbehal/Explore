@@ -30,14 +30,26 @@
 -To use API calls to perform specific tasks
 
 #### Customs Visuals
+1. Using custom visuals
+- Custom Visual files:  
+-.pbiviz files containing code  
+-May be a privacy or security risk
+- Organizational visuals:  
+-Custom visuals that a Power BI admin has approved for your organization  
+-Cannot be displayed in emails or exported to PowerPoint  
+- Marketplace visuals:  
+-Tested and approved for functionality and quality  
+-Certified visuals - more rigrously tested subset that are supported in email and PowerPoint  
+- Importing organizational and marketplace visuals 
 
 ## Tips
+1. A subset of approved visuals from marketplace can be approved and will show up under Organizational visuals
 
 ## Sample Data
 Download from [here](https://docs.microsoft.com/en-us/power-bi/create-reports/sample-datasets)
 
-## Lab 10
-
+## Lab 11
+1. Try Chiclets custom visualizations from marketplace
 
 ## Reflect after lesson or lab
 
