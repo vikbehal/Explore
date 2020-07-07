@@ -53,6 +53,8 @@
 
 ## Tips
 1. A subset of approved visuals from marketplace can be approved and will show up under Organizational visuals
+2. Find custom visual settings under Admin Portal -> Tenant settings -> scroll to Power BI Visuals  
+3. Organizational visuals are also available under Admin Portal -> Organizational visuals
 
 ## Sample Data
 Download from [here](https://docs.microsoft.com/en-us/power-bi/create-reports/sample-datasets)
@@ -61,4 +63,5 @@ Download from [here](https://docs.microsoft.com/en-us/power-bi/create-reports/sa
 1. Try Chiclets and Visio custom visualizations from marketplace
 
 ## Reflect after lesson or lab
+1. How to allow users to use only Microsoft build custom Visuals?
 
