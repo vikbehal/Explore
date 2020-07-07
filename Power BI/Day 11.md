@@ -1,0 +1,43 @@
+# Power BI
+
+## Discussion Points
+#### Power BI API
+1. REST APIs to interact with Power BI  
+- Three forms:  
+-Power BI REST API  
+-Power BI .NET SDK  
+-Power BI JavaScript API  
+
+2. Typical tasks performed using Power BI API  
+- Pushing data to Power BI dashboard  
+- Embedding tiles into an app  
+- Emdedding reports into an app  
+- Importing Power BI Desktop (PBIX) files  
+- Authenticating Power BI web apps  
+
+3. Emdedding Power BI content in applications  
+- For your organization  
+-Configure embedding in SharePoint Online, Microsoft Teams, and Microsoft Dynamics  
+-Use Power BI APs to embed in custom applications, accessing content as the user  
+
+- For your customers  
+-Use Power BI APIs with Power BI Embedded to embed in custom applications, accessing content with a master account  
+
+4. [Power BI Embedded Playground](https://microsoft.github.io/PowerBI-JavaScript/demo/v2-demo/index.html)  
+- Purpose of the Power BI Embedded playground:  
+-As a learning resource  
+-For trying out Power BI REST API operations without writing code  
+-To use API calls to perform specific tasks
+
+#### Customs Visuals
+
+## Tips
+
+## Sample Data
+Download from [here](https://docs.microsoft.com/en-us/power-bi/create-reports/sample-datasets)
+
+## Lab 10
+
+
+## Reflect after lesson or lab
+
