@@ -42,6 +42,15 @@
 -Certified visuals - more rigrously tested subset that are supported in email and PowerPoint  
 - Importing organizational and marketplace visuals 
 
+2. Creating custom visuals  
+- This is an advanced capability  
+-Requires software development expertise  
+-Needs to be maintaned over time as Power BI platform evolves  
+-Typically multiple weeks to months to create a visual  
+- Microsoft Power BI visuals project from Github  
+-Open-source project  
+-Compiles into JavaScript for browser compatibity
+
 ## Tips
 1. A subset of approved visuals from marketplace can be approved and will show up under Organizational visuals
 
@@ -49,7 +58,7 @@
 Download from [here](https://docs.microsoft.com/en-us/power-bi/create-reports/sample-datasets)
 
 ## Lab 11
-1. Try Chiclets custom visualizations from marketplace
+1. Try Chiclets and Visio custom visualizations from marketplace
 
 ## Reflect after lesson or lab
 
