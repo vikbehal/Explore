@@ -31,7 +31,11 @@
 -Cannot modify formatting settings for just mobile devices 
 
 ## Tips
-1. One can connect to Power BI Service and (if firewall is configured accordingly), to Power BI Report Server too
+1. One can connect to Power BI Service and (if firewall is configured accordingly), to Power BI Report Server too  
+2. One can only add reports designed on report view (canvas) on mobile view. There is no additional changes that we can do just for mobile  
+3. Dashboard customization can only be done from Power BI Service. By default Microsoft puts all reports on Mobile view. You can remove/resize required reports. You pin/unpin tiles here  
+
+
 
 ## Sample Data
 Download from [here](https://docs.microsoft.com/en-us/power-bi/create-reports/sample-datasets)
