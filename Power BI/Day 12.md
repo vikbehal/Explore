@@ -37,7 +37,20 @@
 -Snapshot shows the information when mail was sent  
 -Email includes a link to the source tile, report, or visualization  
 -To Access source, recepient must have permissions and dashboard or report must be shared   
+- You can also add annotations, including lines, text, and stamps, to the screenshot before it is shared  
 
+2. Taking mobile content offline:  
+- Power BI mobile app supports offline content:  
+-Automatically caches dashboards in My Workspace and dashboards viewed in previous two weeks  
+-Indicators show that you are using offline data  
+- Background data refresh:  
+-Cached data is automatically refreshed with data on Power BI service (not the data source), whenever your device is connected to a network: every two hours on Wi-Fi & every 24 hours on Mobile data  
+- Limitations:  
+-Access to Reports is read-only  
+-You cannot filter, cross filter, sort, or use slicers  
+
+3. 
+. 
 ## Tips
 1. One can connect to Power BI Service and (if firewall is configured accordingly), to Power BI Report Server too  
 2. One can only add reports designed on report view (canvas) on mobile view. There is no additional changes that we can do just for mobile  
