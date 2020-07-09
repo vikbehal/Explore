@@ -30,6 +30,14 @@
 -Optimize only the pages that requirea mobile layout  
 -Cannot modify formatting settings for just mobile devices 
 
+#### Using Power BI Mobile app  
+1. Annotating and shaing content  
+- Share a screenshot of a tile, report, or visualization from Power BI mobile app as a mail message:  
+(One can annotate - take screenshot, write some notes and share)  
+-Snapshot shows the information when mail was sent  
+-Email includes a link to the source tile, report, or visualization  
+-To Access source, recepient must have permissions and dashboard or report must be shared   
+
 ## Tips
 1. One can connect to Power BI Service and (if firewall is configured accordingly), to Power BI Report Server too  
 2. One can only add reports designed on report view (canvas) on mobile view. There is no additional changes that we can do just for mobile  
