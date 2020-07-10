@@ -49,13 +49,30 @@
 -Access to Reports is read-only  
 -You cannot filter, cross filter, sort, or use slicers  
 
-3. 
-. 
+3. Using data alerts  
+- Notification information feed:  
+-Messages about new dashboards that have been shared with you  
+-Information about Power BI events and meetings  
+-Alerts that you have set  
+- Alerts  
+-Set in Power BI Service or Power BI mobile apps  
+-Used to notify you when data in dashboard changes beyond particular limits  
+-Alerts are personal to you, and are not shared wuth other users  
+
+4. Creating and viewing on-premises SSRS reports  
+- Use Power BI mobile apps to view on-premises reports and KPIs  
+- Create as SSRS mobile reports using SQL Server Mobile Report Publisher, optional phone layout  
+- Publish reports to a SQL Server reporting services web portal  
+- View reports in Power BI mobile app:  
+-Select **Connect to server** using format:  
+http://<servername>/reports or  
+https://<servername>/reports
+ 
 ## Tips
 1. One can connect to Power BI Service and (if firewall is configured accordingly), to Power BI Report Server too  
 2. One can only add reports designed on report view (canvas) on mobile view. There is no additional changes that we can do just for mobile  
 3. Dashboard customization can only be done from Power BI Service. By default Microsoft puts all reports on Mobile view. You can remove/resize required reports. You pin/unpin tiles here  
-
+4. Alert is a push notification and an email
 
 
 ## Sample Data
