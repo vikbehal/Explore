@@ -28,6 +28,6 @@ Download from [here](https://docs.microsoft.com/en-us/power-bi/create-reports/sa
 
 ## Reflect after lesson or lab
 1. What are Apps?  
-2. How to enabled last refresh time on tiles? What is the significance of it?  
+2. How to enable last refresh time on tiles? What is the significance of it?  
 3. What is RLS? What is the significane of it?  
-4. What is it important to format data while importing data from files?
+4. Why is it important to format data while importing data from files?
