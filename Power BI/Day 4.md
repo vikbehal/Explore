@@ -14,7 +14,7 @@
   - SQL Server  
   -All recent versions up to SQL Server 2019 are supported  
   -Similarly SQLs cloud versions are also supported
-  - Saas providers include Bing, Google Analytics, facebook, Salesforce, Guthub, etc.  
+  - Saas providers include Bing, Google Analytics, facebook, Salesforce, Github, etc.  
   - Supports other databases like Access, Oracle, DB2, MySQL, etc.  
   - Connect to any webpage to scrape structured data (Demo)
   - R & Python  
