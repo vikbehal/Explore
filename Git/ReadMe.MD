@@ -1,5 +1,5 @@
-git clone <url>
-git add <filename>
+git clone <url>  
+git add <filename>  
 #Add mentioned file to the list of files I will commit next time. Adds files to staging area.
 git commit -m "message"
 #Add relevant message
