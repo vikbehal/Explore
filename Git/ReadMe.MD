@@ -1,7 +1,7 @@
-**git clone <url>  **
+**git clone <url>  **  
 **git add <filename>**  
 #Add mentioned file to the list of files I will commit next time. Adds files to staging area.  
-**git commit -m "message" ** 
+**git commit -m "message" **   
 #Add relevant message  
 **git status**  
 #To find out what is going on in current repository  
