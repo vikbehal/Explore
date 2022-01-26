@@ -1,28 +1,28 @@
-**git clone <url>  **  
+**git clone <url>**  
 **git add <filename>**  
 #Add mentioned file to the list of files I will commit next time. Adds files to staging area.  
-**git commit -m "message" **   
+**git commit -m "message"**   
 #Add relevant message  
 **git status**  
 #To find out what is going on in current repository  
-**git push  **
+**git push**
 #Push changes to server  
 
-**Typically, do this:  **  
+Typically, do this:  
 Make changes -> git add -> git commit -> git push  
 
-**git pull  **
+**git pull**
 #Get latest changes from server and bring them here. This is when someone else has updated repository and we want to get them.  
 
 #Conflict may happen while pulling, which is often the case if same lines are modified locally and on server as well. We need to manually resolve them and then commit & push. Do this  
 fix the issue -> git add -> git commit -> git push  
 
-**git log  **
+**git log**
 
-**git reset  **
+**git reset**
 #go back to particular commit, origin, or branch  
-**git reset --hard <commit> **
-**git reset --hard origin/master  **
+**git reset --hard <commit>**
+**git reset --hard origin/master**
 
 #branching is helpful while working on new features. Typically there is master and HEAD points to it but we can branch and point HEAD to branch. So, we work on that branch. Later we can merge the branch with master.  
 git branch #tells me all branches  
@@ -33,7 +33,7 @@ Do this
 branch using commit -> make changes -> git add -> git commit  
 
 #Once ready, merge it  
-**git merge <branch-name> ** 
+**git merge <branch-name>** 
 
 #You may not push changes  
 
@@ -54,10 +54,10 @@ git branch -D <branch-name>
 #Collaborators can do it. From settings.  
 
 #Shorthands  
-**git commit -am  **
+**git commit -am**
 #Add all changed files and then commit  
 
-**git add . ** 
+**git add .** 
 #add everything that has changed  
 
 Source: https://www.youtube.com/watch?v=eulnSXkhE7I  
