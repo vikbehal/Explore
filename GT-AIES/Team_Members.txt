@@ -1,4 +1,0 @@
-Name, GTUserName, email address
-Vikrant .,	V33, v33@gatech.edu
-Anuradha Misra,	amisra41, amisra41@gatech.edu
-Sudeshna Dash,	sdash40, sdash40@gatech.edu
